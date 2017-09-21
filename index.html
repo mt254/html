@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+		<title>The animal table</title>
 		<style>
+			p.title {
+				text-align: center
+			}
 			table, th, td {
 				border: 1px solid black;
 				border-collapse: collapse;
@@ -14,10 +19,13 @@
     			padding: 15px;
 			}
 		</style>
-		<title>"Predatory animals"</title>
 	</head>
 	<body>
-		<p><center>The animal table</center></p>
+	<nav>
+		<a href="#">Home</a>
+		<a href="contact.html">Contact</a>
+	</nav>
+		<p class="title">The animal table</p>
 		<table style="width:100%">
 			<thead>
 				<tr>
@@ -31,7 +39,7 @@
 					<th>Image</th>
 				</tr>
 				<tr>
-					<td>Brown bear</td>
+					<td><a href="bear.html">Brown bear</a></td>
 					<td><em>Ursus arctos</em></td>
 					<td>
 						<img src="./images/brown-bear.png" alt="A brown bear">
